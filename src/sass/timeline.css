@@ -1,0 +1,119 @@
+.roadmap-section {
+  padding: 60px 20px;
+  color: white;
+  border-top: 2px solid goldenrod;
+  border-bottom: 2px solid goldenrod;
+}
+.title1 {
+        font-size: 2em;
+        color: var(--gold);
+      }
+
+.roadmap-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.roadmap-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.roadmap-image img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 2px solid goldenrod;
+}
+
+.vertical-timeline {
+  position: relative;
+  padding-left: 40px;
+  max-width: 600px;
+  flex: 1;
+}
+
+/* Vertical line */
+.timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  width: 3px;
+  background-color: goldenrod;
+  z-index: 0;
+}
+
+/* Timeline items */
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  width: 16px;
+  height: 16px;
+  background-color: goldenrod;
+  border-radius: 50%;
+  border: 2px solid #000;
+  z-index: 1;
+}
+
+.timeline-content {
+  padding-left: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.timeline-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.timeline-content ul li {
+  margin-bottom: 6px;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .roadmap-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vertical-timeline {
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .timeline-line {
+    left: 10px;
+  }
+
+  .timeline-dot {
+    left: 2px;
+  }
+
+  .roadmap-image img {
+    max-width: 100%;
+  }
+}

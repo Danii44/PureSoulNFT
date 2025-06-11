@@ -1,0 +1,71 @@
+{
+  "name": "hashlips_nft_minting_dapp",
+  "homepage": "https://nftipsproject.com/",
+  "version": "1.0.0",
+  "description": "HashLips minting dapp is a quick and easy way to connect your smart contract and start minting NFTs.",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.7",
+    "aos": "^2.3.4",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security",
+    "jquery": "3.5.1",
+    "os": "^0.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^4.0.3",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.49.7",
+    "scrollreveal": "^4.0.9",
+    "stream": "0.0.2",
+    "styled-components": "^5.3.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.27",
+    "react-ga": "^3.3.0",
+    "react-modal-image": "^2.5.0",
+    "react-transition-group": "^4.4.2",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "walletconnect": "^1.7.8",
+    "walletlink": "^2.5.0",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.2",
+    "web3-provider": "^1.0.0",
+    "web3modal": "^1.9.8"
+  },
+  "author": "Daniel Eugene Botha (HashLips)",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+/*    /index.html   200 
+/^[^.]+$|\.(?!(css|gif|ico|jpg|jpeg|js|png|mp3|txt|svg|woff|ttf|map|json)$)([^.]+$)/>

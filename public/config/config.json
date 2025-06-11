@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x33df1aeb441456dd1257c1011c6d776e8464ebf5",
+  "SCAN_LINK": "https://bscscan.com/token/0x33df1aeb441456dd1257c1011c6d776e8464ebf5",
+  "NETWORK": {
+    "NAME": "Binance Smart Chain",
+    "SYMBOL": "BNB",
+    "ID": 56
+  },
+  "NFT_NAME": "PureSoulNFT",
+  "SYMBOL": "DIVINE",
+  "MAX_SUPPLY": 16667,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 0.1,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Binance NFT",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/",
+  "SHOW_BACKGROUND": true
+}
