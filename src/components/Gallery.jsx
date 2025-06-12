@@ -8,7 +8,7 @@ import gallery4 from "../assets/gallery4.png";
 export default function Gallery() {
   return (
     
-    <div className="like">
+    <div className="like" id="about">
       <h1 className="title1">Pure Soul Overview</h1>
       <br></br>
       <p className="description">Pure Soul is a decentralized NFT trading card ecosystem that blends spiritual mythology, ancient lore, and immersive gameplay. Built on the Binance Smart Chain, the project introduces a universe divided into three distinct factions — Divine Ascendants, Primordial Deities, and Fallen Titans — each representing a unique philosophy, energy, and lineage of characters.

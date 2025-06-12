@@ -191,21 +191,21 @@ function App() {
       });
   };
 
-  const decrementMintAmount = () => {
-    let newMintAmount = mintAmount - 1;
-    if (newMintAmount < 1) {
-      newMintAmount = 1;
-    }
-    setMintAmount(newMintAmount);
-  };
+  // const decrementMintAmount = () => {
+  //   let newMintAmount = mintAmount - 1;
+  //   if (newMintAmount < 1) {
+  //     newMintAmount = 1;
+  //   }
+  //   setMintAmount(newMintAmount);
+  // };
 
-  const incrementMintAmount = () => {
-    let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 1) {
-      newMintAmount = 1;
-    }
-    setMintAmount(newMintAmount);
-  };
+  // const incrementMintAmount = () => {
+  //   let newMintAmount = mintAmount + 1;
+  //   if (newMintAmount > 1) {
+  //     newMintAmount = 1;
+  //   }
+  //   setMintAmount(newMintAmount);
+  // };
 
   const getData = () => {
     if (blockchain.account !== "" && blockchain.smartContract !== null) {
@@ -360,7 +360,7 @@ function App() {
                       {feedback}
                     </s.TextDescription>
                     <s.SpacerMedium />
-                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                    {/* <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledRoundButton
                         style={{ lineHeight: 0.4 }}
                         disabled={claimingNft ? 1 : 0}
@@ -390,7 +390,7 @@ function App() {
                       >
                         +
                       </StyledRoundButton>
-                    </s.Container>
+                    </s.Container> */}
                     <s.SpacerSmall />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledButton
